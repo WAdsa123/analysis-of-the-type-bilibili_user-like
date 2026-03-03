@@ -1,2 +1,3 @@
 # analysis-of-the-type-bilibili_user-like
-We used web scraping technology to obtain video data from Bilibili's weekly must-watch module, and based on this, analyzed the changes in Bilibili users' preferences for food types in recent years.
+We used web scraping technology to obtain video data from Bilibili's weekly must-watch module, and based on this, analyzed the changes in Bilibili users' preferences for video types in recent years.
+The videos in the "Weekly Must-Watch" module are considered popular videos favored by users during the week, and the crawled "video_tname" is used as the video type tag. Given that Bilibili's view count requires users to watch a certain percentage of the video length and that donating coins incurs additional costs, both are counted at 40% as important indicators in the normalization of user preference. The analysis utilized techniques such as STL decomposition and temporal clustering.
